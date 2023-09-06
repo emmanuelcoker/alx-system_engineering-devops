@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f-print | wc -l | grep "\.js$" -exec rm {} \;
+find . -type f | grep "\.js$" | xargs rm
